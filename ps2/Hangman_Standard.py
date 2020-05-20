@@ -7,7 +7,7 @@
 # -----------------------------------
 # This is a version of the classic game, Hangman. For more info check out the rules and
 # background here: http://en.wikipedia.org/wiki/Hangman_(game)
-# First import the words.txt file.
+# First import the words.txt file that in the ps2 folder.
 # Run the program with shift + enter
 # Try to guess the word before you run out of guesses!
 
