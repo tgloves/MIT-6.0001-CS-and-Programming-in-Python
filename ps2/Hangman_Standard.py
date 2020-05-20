@@ -49,9 +49,6 @@ def choose_word(wordlist):
     
     return random.choice(wordlist)
 
-# end of helper code
-
-#-----------------------------------
 
 # Load the list of words into the variable wordlist
 # so that it can be accessed from anywhere in the program
@@ -74,9 +71,6 @@ def is_word_guessed(secret_word, letters_guessed):
     else:
         return True
 
-
-
-
 def get_guessed_word(secret_word, letters_guessed):
     '''
     secret_word: string, the word the user is guessing
@@ -91,9 +85,6 @@ def get_guessed_word(secret_word, letters_guessed):
         else:
             x.append(n)
     return ''.join(x)
-# secret_word = 'apple'
-# letters_guessed = ['e', 'i', 'k', 'p', 'r', 's']
-# print(get_guessed_word(secret_word, letters_guessed) )
 
 
 import string
@@ -111,10 +102,6 @@ def get_available_letters(letters_guessed):
         else:
             x
     return str(x)
-
-# letters_guessed = []
-# print (get_available_letters(letters_guessed))
-
 
 
 def hangman(secret_word):
