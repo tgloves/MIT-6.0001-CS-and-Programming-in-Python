@@ -1,7 +1,7 @@
 # Problem Set 2, Hangman Standard.py
 # Name: tgloves
 # Collaborators: Just me
-
+# Time taken: 14 Hours
 
 # Hangman Game
 # -----------------------------------
